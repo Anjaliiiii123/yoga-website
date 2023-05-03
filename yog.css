@@ -9,7 +9,9 @@ html{
 .link{
     text-decoration: none;
     font-family: inherit;
-    color: white;
+    color: rgb(145, 153, 69);
+    /* font-size: medium; */
+    /* padding: 0 20 px; */
 }
 .main-header{
     background-image: url(img/hero-img.jpg);
@@ -23,6 +25,7 @@ html{
 .nav-list{
     list-style-type: none;
     display: flex;
+    /* padding: 0 20px; */
 }
 .hero-content{
     position: absolute;
@@ -33,9 +36,27 @@ html{
 }
 .header-nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 10px 30px;
+}
+.nav-link{
+    font-size: 15px;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: bold;
+    transition: color .3s;
+}
+.nav-link:hover{
+    color: #ccc;
+}
+.nav-item{
+    margin-left: 50px;
+}
+.main-heading{
+    font-weight: normal;
+    color: #fff;
+    font-size: 50px;
 }
 
 
